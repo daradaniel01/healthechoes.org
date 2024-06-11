@@ -1,0 +1,76 @@
+.logo{
+  margin-top: -13px;
+  height: 70px;
+  width: 70px;
+}
+.navba{
+  /* position:fixed ; */
+  transition: 1s;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.navbar-fixed-top{
+    position: sticky !important;
+    right: 0 !important;
+    left: 0 !important;
+    z-index: 1030 !important;
+    top: 0;
+  }
+  .navbar-brand{
+    color: #fff;
+    font-size: 45px;
+    font-family: Germania;
+    cursor: pointer;
+  }
+  .icon-bar{
+    background-color: #000;
+    
+  }
+  .nav{
+    font-family: Lithos Pro;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  .navbar-nav{
+    display: flex !important;
+  }
+  @media (max-width:768px) {
+    .navbar-nav{
+      display: block !important;
+    }
+  }
+  a{
+    text-decoration: none !important;
+  }
+  .deco{
+    text-decoration: none !important;
+    color: #fff;
+  }
+  .deco:hover{
+    color: #fff;
+  }
+  .nav li{
+   
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.nav li:after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid #663dff;
+    transform: scaleX(0);
+    transition: .2s ease-in-out;
+}
+.nav li:hover:after{
+   transform: scaleX(1);
+}
+@media (max-width:768px) {
+  .logo{
+    height: 50px;
+    width: 50px;
+  }
+}
+

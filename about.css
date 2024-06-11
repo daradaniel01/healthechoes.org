@@ -1,0 +1,306 @@
+.logo{
+    margin-top: -13px;
+    height: 70px;
+    width: 70px;
+ }
+ @media (max-width:768px) {
+  .logo{
+    height: 50px;
+    width: 50px;
+  }
+  .num1{
+    font-size: 12px !important;
+    padding-bottom: 5px;
+  }
+  .imgsection{
+    height: 60vh !important;
+  }
+  .custom-btn{
+    height: 40px !important;
+    width: 140px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width:808px) {
+  .num1{
+    font-size: 12px !important;
+  }
+}
+ @media (max-width:516px) {
+  .section2{
+    display: block;
+  }
+  .imgsection{
+    height: 70vh !important;
+  }
+  .space{
+    width: 100%;
+    display: block;
+  }
+}
+ .navba{
+    /* position:fixed ; */
+    transition: 1s;
+  }
+  .navbar-fixed-top{
+    position: sticky !important;
+    right: 0 !important;
+    left: 0 !important;
+    background-color: #fff;
+    z-index: 1030 !important;
+    top: 0;
+  }
+  .navbar-brand{
+    color: #fff;
+    font-size: 45px;
+    font-family: Germania;
+    cursor: pointer;
+  }
+  .icon-bar{
+    background-color: #000;
+    
+  }
+  .navbar-nav{
+    display: flex !important;
+  }
+  @media (max-width:768px) {
+    .navbar-nav{
+      display: block !important;
+    }
+  }
+  a{
+    text-decoration: none !important;
+  }
+  .deco{
+    text-decoration: none !important;
+    color: #000;
+  }
+  .deco:hover{
+    color: #000;
+  }
+  .nav{
+  
+    font-family: Lithos Pro;
+    color: #000000;
+    padding: 10px 20px;
+ }
+ .nav li{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.nav li:after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid #663dff;
+    transform: scaleX(0);
+    transition: .2s ease-in-out;
+}
+.nav li:hover:after{
+   transform: scaleX(1);
+}
+.section1{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  height: 40vh;
+  padding-left: 5%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), #673dff7c);
+}
+.txt2{
+  border-left: 3px solid #fff;
+  padding-left: 1%;
+}
+.section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 100px;
+  padding: 10px 40px 10px 40px;
+}
+.txt3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(140, 143, 143);
+  font-size: 19px;
+  padding-top: 100px;
+  width: 50%;
+}
+.img1{
+  width: 54%;
+  height: 180px;
+  border-radius: 70%;
+}
+.col-text {
+  height:20em;
+}
+.grid-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  flex-direction: row; 
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+}
+.col {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.col-left {
+  -webkit-box-ordinal-group:-1;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+}
+.col-text{
+  display: flex;
+  align-items: center;
+  justify-content: flex-wrap: wrap;
+}
+.Aligner-item {
+  width: 60%;
+}
+.col-image {
+  background-size: cover;
+  background-position:center center;
+}
+
+@media (max-width: 640px) {
+  .grid-flex {
+    height: 40em;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column; 
+   }
+  .col {
+    order:vertical;
+  }
+  .col-left {
+    -webkit-box-ordinal-group:0;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  .col-text div p {
+    padding: 1em;
+  }
+  .Aligner-item {
+    width: 90%;
+  }
+}
+
+.section2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 40px 10px 20px 10px;
+  
+}
+.space{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.space2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+  justify-content: flex-end;
+  width: 70%;
+}
+.imgsection{ 
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), #0e0e0e83), url(./images/privacy.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position:center bottom;
+  background-size:cover;
+}
+.num{
+  font-size: 27px;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.num1{
+  color: #f3f0fd;
+  padding-bottom: 15px;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fa-bullseye{
+  color: #080808;
+  font-size: 670px;
+}
+.text{
+  width: 60%;
+  text-align: center;
+}
+.custom-btn {
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-15 {
+  
+  background: #663dff;
+  border: none;
+  z-index: 1;
+}
+.btn-15:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #ffffff;
+  border-radius: 5px;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.btn-15:hover {
+  color: #272626;
+}
+.btn-15:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-15:active {
+  top: 2px;
+}
